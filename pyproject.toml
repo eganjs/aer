@@ -9,8 +9,12 @@ repository = "https://github.com/eganjs/aer"
 
 readme = "README.md"
 
+[tool.poetry.scripts]
+aer = "aer.cli:cli"
+
 [tool.poetry.dependencies]
 python = "^3.6"
+click = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.0"
